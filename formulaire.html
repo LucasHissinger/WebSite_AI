@@ -1,0 +1,88 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Formulaire</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="CSS_menu.css">
+		<link type="text/css" rel="stylesheet" href="formulaire\CSS_formulaire.css">
+		<script type="text/javascript" src="formulaire\formulaire.js"></script>
+	</head>
+	<body>
+		<img src="formulaire\formulaire_banner.png" class="banner">
+		<div>
+			<ul id="menu-deroulant">
+				<li><a href="index.html">Qu'est-ce que l'IA ?</a>
+					<ul>
+						<li><a href="index.html#def">Définition</a></li>
+						<li><a href="index.html#ML">Machine learning</a></li>
+						<li><a href="index.html#DL">Deep learning</a></li>
+					</ul>
+				</li>
+				<li><a href="histoireIA.html">L'histoire de l'IA</a>
+					<ul>
+						<li><a href="histoireIA.html#mythes">Dans les mythes</a></li>
+						<li><a href="histoireIA.html#Av2000">Avant 2000</a></li>
+						<li><a href="histoireIA.html#Ap2000">De 2000 à 2010</a></li>
+						<li><a href="histoireIA.html#Ap2010">A partir de 2010</a></li>
+					</ul>
+				</li>
+				<li><a href="futureIA.html">Le futur de l'IA</a>
+					<ul>
+						<li><a href="futureIA.html#intro">Intro</a></li>
+						<li><a href="futureIA.html#tesla">Tesla</a></li>
+						<li><a href="futureIA.html#IE">InnerEye</a></li>
+						<li><a href="futureIA.html#emma">Emma</a></li>
+					</ul>
+				</li>
+				<li><a href="dangers.html">Les Dangers</a>
+					<ul>
+						<li><a href="dangers.html#intro">Introduction</a></li>
+						<li><a href="dangers.html#ST">Singularité Technologique</a></li>
+						<li><a href="dangers.html#Perte">La perte de controle</a></li>
+						<li><a href="dangers.html#Chomage">Le chômage</a></li>
+						<li><a href="dangers.html#RS">La Repression dans la société</a></li>
+						<li><a href="dangers.html#Craintes">Les Craintes</a></li>
+					</ul>
+				</li>
+				<li><a href="specifique.html">+ Spécifique</a>
+					<ul>
+						<li><a href="specifique.html#Crea">IA, Créative ?</a></li>
+						<li><a href="specifique.html#Quantique">Quantique et IA</a></li>
+						<li><a href="specifique.html#Faible">IA faible et forte ?</a></li>
+						<li><a href="specifique.html#Videos">Vidéos</a></li>
+					</ul>
+				</li>
+				<li><a href="formulaire.html">Formulaire</a></li>
+			</ul>
+		</div>
+		<div id="principal">
+			<form method="get" action="" class="form" name="formulaire" onSubmit="return verif_formulaire()">
+				<label for="prenom"><strong>Prénom : </strong></label><input type="text" name="prenom" placeholder="Prénom"><br><br>
+				<label for="nom"><strong>Nom : </strong></label><input type="text" name="nom" placeholder="Nom">
+				<fieldset class="sexe">
+					<legend>Sexe</legend>
+					<input type="radio" name="sexe"><label for="sexe">Homme</label><input type="radio" name="sexe"><label for="sexe">Femme</label><input type="radio" name="sexe"><label for="sexe">Autre</label> 
+				</fieldset>
+				<br>
+				<label for="mail"><strong>Email : </strong></label>
+				<input type="email" name="mail" placeholder="Email"><br><br>
+				<label for="adresse"><strong>Adresse : </strong></label>
+				<input type="text" name="adresse" placeholder="Adresse"><br><br>
+				<label for="venu"><strong>Etes-vous déjà venu : </strong></label>
+				<select name="venu" size="1">
+					<option value="oui">oui</option>
+					<option value="non">non</option>
+				</select><br><br>
+				<label for="com"><strong>Si vous avez un commentaire :</strong></label><br>
+				<textarea name="com" placeholder="Je trouve que..." rows="10" cols="45"></textarea><br><br>
+				<input type="submit" name="submit" value="Valider le formulaire">
+				<input type="reset" name="reset" value="Reset">
+			</form>
+			<img class="formulaire_principal_img" src="formulaire\formulaire_principal.png">
+			<img class="formulaire_img" src="formulaire\formulaire.png">
+		</div>
+		<div id="bottom_div">
+			<p class="merci">Merci d'avoir visité notre site !</p>
+		</div>
+	</body>
+</html>

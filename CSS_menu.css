@@ -1,0 +1,123 @@
+html{
+scroll-behavior: smooth;
+}
+
+/* Lien visité, pour les garder en bleu */
+
+a:visited{
+color : blue;
+}
+
+/* Bannière au top de la page */
+
+.banner{
+width : 1900px;
+height : 200px;
+}
+
+/* Titre en savoir plus */
+
+.EnSavoirPlus{
+text-align: center;
+font-family : monospace;
+margin-top: 10px;
+font-size: 200%;
+padding-bottom: 5px;
+border-bottom:1px solid black;
+color : purple;
+}
+
+/* Body */ 
+
+body{
+margin:0;
+background-color:#a7f2f6;
+}
+
+/* Menus */
+
+#menu-deroulant {
+text-align: center;
+width: 340px;
+position : absolute;
+left : -35px;
+top: 192px;
+}
+#menu-deroulant ul {
+padding:0;
+margin:0;
+text-align: center;
+z-index: 1000;
+}
+
+#menu-deroulant li{
+background-color:white;
+border-radius:8px 8px 8px 8px;
+margin-bottom : 2px;
+border: 1px solid black;
+border-bottom: none;
+}
+
+#menu-deroulant li:last-child{
+border-bottom: 1px solid black;
+}
+
+#menu-deroulant li li{
+max-height:0;
+overflow: hidden;
+transition: all .7s;
+-moz-transition: all .7s;
+-webkit-transition: all .7s;
+border-radius:0;
+background: white;
+margin:0;
+}
+
+#menu-deroulant a {
+display:block;
+text-decoration: none;
+color: black;
+padding: 8px 0;
+font-family: Verdana;
+font-size:19px;
+}
+
+#menu-deroulant ul li a, #menu-deroulant li:hover li a {
+font-size:1em;
+}
+
+#menu-deroulant ul li:last-child{
+border-radius:0 0 8px 8px;
+border-bottom: 1px solid black;
+}
+
+#menu-deroulant li:hover {
+background: white;
+}
+
+#menu-deroulant li li:hover {
+background: white;
+}
+
+#menu-deroulant li:hover li {
+max-height: 240px;
+}
+
+#menu-deroulant li:hover li a{
+color:black;
+text-transform:inherit;
+}
+
+#menu-deroulant li li:hover{
+font-size : 130%;
+}
+
+/* Top Button */
+
+.top_button_img{
+position : fixed;
+top : 875px;
+left : 15px;
+height : 50px;
+width : 50px;
+}

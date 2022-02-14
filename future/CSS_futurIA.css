@@ -1,0 +1,179 @@
+body{
+background-image: url("FutureBackground.jpg");
+background-repeat: repeat;
+}
+
+.banner{
+margin-bottom : 4px;
+}
+
+/* Div principal (le centre de la page) */
+
+#principal{
+background-color: white;
+float: right;
+width: 1539px;
+height: 4380px;
+margin-top : 3px;
+margin-right: 10px;
+border: 1px solid black;
+border-radius:8px 8px 8px 8px;
+margin-bottom: 30px;
+}
+
+/* En Savoir plus */
+
+#actus{
+position : absolute;
+border: 1px solid black;
+right: 10px;
+top : 4610px;
+width : 1539px;
+height : 280px;
+border-radius:8px 8px 8px 8px;
+background-color: white;
+}
+
+.ActuIA_div{
+position : absolute;
+top : 47px;
+left : 130px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div2{
+position : absolute;
+top : 47px;
+left : 610px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div_last{
+position : absolute;
+top : 73px;
+left : 1100px;
+}
+
+.ActuIA_div p,.ActuIA_div2 p, .ActuIA_div_last p{
+position : relative;
+font-size : 120%;
+font-family : Arial;
+text-align : center;
+top : -10px;
+right : 15px;
+}
+
+.ActuIA_div img,.ActuIA_div2 img, .ActuIA_div_last img{
+position:relative;
+right : 11px;
+border: 1px solid black;
+height : 160px;
+width : 324px;
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div a:hover p,.ActuIA_div2 a:hover p, .ActuIA_div_last a:hover img, .ActuIA_div_last a:hover p{
+-webkit-transform:scale(1.02);
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div_last a:hover img{
+box-shadow: 1px 1px 12px #555;
+}
+
+/* Image Titre IA*/
+
+#principal img {
+margin-left: 120px;
+margin-top: 20px;
+width: 1300px;
+height: 750px;
+border : 1px solid black;
+}
+
+/* Partie intro */
+
+#intro, #Tesla, #IE, #emma{
+font-family: OCR A Std, cursive;
+font-weight: bold;
+font-size : 180%;
+}
+
+.principal_text, .principal_text li p, .principal_text p{
+font-size : 115%;
+font-family : Arial;
+margin-right: 15px;
+}
+
+.underline{
+text-decoration : underline;
+}
+
+/* Partie Tesla */
+
+
+.principal_text_tesla{
+font-size : 115%;
+font-family : Arial;
+margin-right: 800px;
+word-spacing : 4px;
+}
+
+#principal .tesla_img{
+width: 600px;
+height : 360px;
+position: absolute;
+right: 150px;
+top : 2775px;
+border : 1px solid black;
+}
+
+#principal .tesla_img2{
+width: 600px;
+height : 360px;
+position: absolute;
+right: 150px;
+top : 3175px;
+border : 1px solid black;
+}
+
+/* Partie InnerEye */
+
+.principal_text_IE{
+font-size : 115%;
+font-family : Arial;
+margin-left: 630px;
+margin-right: 15px;
+word-spacing : 4px;
+margin-bottom : 60px;
+}
+
+#principal .IE_img{
+width: 600px;
+height : 280px;
+position: absolute;
+right: 910px;
+top : 3780px;
+border : 1px solid black;
+}
+
+/* Partie emma */
+
+.principal_text_emma{
+font-size : 115%;
+font-family : Arial;
+margin-left: 630px;
+margin-right: 15px;
+word-spacing : 4px;
+}
+
+#principal .emma_img{
+width: 600px;
+height : 400px;
+position: absolute;
+right: 910px;
+top : 4155px;
+border : 1px solid black;
+}
