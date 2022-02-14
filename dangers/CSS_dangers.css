@@ -1,0 +1,228 @@
+body{
+background-image: url("dangersBackground.jpg");
+background-repeat: repeat;
+}
+
+.banner{
+margin-bottom : 4px;
+}
+
+/* Div principal (le centre de la page) */
+
+#principal{
+background-color: white;
+float: right;
+width: 1539px;
+height: 5155px;
+margin-top : 3px;
+margin-right: 10px;
+border: 1px solid black;
+border-radius:8px 8px 8px 8px;
+margin-bottom: 30px;
+}
+
+/* En Savoir plus */
+
+#actus{
+position : absolute;
+border: 1px solid black;
+right: 10px;
+top : 5390px;
+width : 1539px;
+height : 280px;
+border-radius:8px 8px 8px 8px;
+background-color: white;
+}
+
+.ActuIA_div{
+position : absolute;
+top : 47px;
+left : 130px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div2{
+position : absolute;
+top : 47px;
+left : 610px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div_last{
+position : absolute;
+top : 73px;
+left : 1100px;
+}
+
+.ActuIA_div p,.ActuIA_div2 p, .ActuIA_div_last p{
+position : relative;
+font-size : 120%;
+font-family : Arial;
+text-align : center;
+top : -10px;
+right : 15px;
+}
+
+.ActuIA_div img,.ActuIA_div2 img, .ActuIA_div_last img{
+position:relative;
+right : 11px;
+border: 1px solid black;
+height : 160px;
+width : 324px;
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div a:hover p,.ActuIA_div2 a:hover p, .ActuIA_div_last a:hover img, .ActuIA_div_last a:hover p{
+-webkit-transform:scale(1.02);
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div_last a:hover img{
+box-shadow: 1px 1px 12px #555;
+}
+
+/* Image Titre IA*/
+
+#principal img {
+margin-left: 120px;
+margin-top: 20px;
+width: 1300px;
+height: 750px;
+border : 1px solid black;
+}
+
+/* Partie intro */
+
+#intro, #ST, #Perte, #Chomage, #RS, #Craintes{
+font-family: OCR A Std, cursive;
+font-weight: bold;
+font-size : 180%;
+}
+
+.principal_text{
+font-size : 115%;
+font-family : Arial;
+margin-right: 15px;
+}
+
+#principal .dangers_intro_img{
+width : 830px;
+height : 500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border : 1px solid black; 
+}
+
+/* Partie ST */
+
+#principal .ST_img {
+width : 830px;
+height : 500px;
+display: block;
+margin-left: 0;
+border : 1px solid black;
+}
+
+/* Partie Perte */
+
+#principal .perte_img{
+width: 600px;
+height : 360px;
+position: absolute;
+right: 150px;
+top : 2650px;
+border : 1px solid black;
+}
+
+.principal_text_perte{
+font-size : 115%;
+font-family : Arial;
+margin-right: 800px;
+word-spacing : 4px;
+margin-bottom: 270px;
+}
+
+/* Partie Chomage */
+
+#principal .chomage_img{
+width: 600px;
+height : 360px;
+position: absolute;
+right: 150px;
+top : 3100px;
+border : 1px solid black;
+}
+
+.principal_text_chomage{
+font-size : 115%;
+font-family : Arial;
+margin-right: 800px;
+word-spacing : 4px;
+margin-bottom: 270px;
+}
+
+/* Partie RS */
+
+#principal .RS_img{
+width: 600px;
+height : 360px;
+position: absolute;
+right: 150px;
+top : 3600px;
+border : 1px solid black;
+}
+
+.principal_text_RS{
+font-size : 115%;
+font-family : Arial;
+margin-right: 800px;
+word-spacing : 4px;
+margin-bottom: 150px;
+}
+
+/* Partie Craintes */
+
+.titre_craintes{
+font-size : 150%;
+font-family : Arial;
+text-align: center;
+text-decoration : underline;
+}
+
+.craintes_text_right{
+font-size : 115%;
+font-family : Arial;
+margin-left: 640px;
+padding-right: 60px;
+word-spacing: 4px;
+margin-bottom : 200px;
+}
+
+.craintes_text_left{
+font-size : 115%;
+font-family : Arial;
+margin-right: 750px;
+word-spacing: 4px;
+margin-bottom: 260px;
+}
+
+#principal .craintes_img{
+width: 620px;
+height : 400px;
+position : absolute;
+right: 890px;
+top : 4162px;
+border: 1px solid black;
+}
+
+#principal .craintes_img2{
+width: 620px;
+height : 400px;
+position : absolute;
+right: 120px;
+top : 4650px;
+border: 1px solid black;
+}

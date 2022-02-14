@@ -1,0 +1,182 @@
+body{
+background-image: url("IndexBackground.jpg");
+background-repeat: repeat;
+}
+
+/* Div principal (le centre de la page) */
+
+
+#principal{
+background-color: white;
+float: right;
+width: 1539px;
+height: 3600px;
+margin-top : 3px;
+margin-right: 10px;
+border: 1px solid black;
+border-radius:8px 8px 8px 8px;
+margin-bottom: 30px;
+}
+
+/* En Savoir plus */
+
+#actus{
+position : absolute;
+border: 1px solid black;
+right: 10px;
+top : 3830px;
+width : 1539px;
+height : 280px;
+border-radius:8px 8px 8px 8px;
+background-color: white;
+}
+
+.ActuIA_div{
+position : absolute;
+top : 47px;
+left : 130px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div2{
+position : absolute;
+top : 47px;
+left : 610px;
+border-right : 1px solid black;
+padding-right : 60px;
+padding-top : 26px;
+}
+
+.ActuIA_div_last{
+position : absolute;
+top : 73px;
+left : 1100px;
+}
+
+.ActuIA_div p,.ActuIA_div2 p, .ActuIA_div_last p{
+position : relative;
+font-size : 120%;
+font-family : Arial;
+text-align : center;
+top : -10px;
+right : 15px;
+}
+
+.ActuIA_div img,.ActuIA_div2 img, .ActuIA_div_last img{
+position:relative;
+right : 11px;
+border: 1px solid black;
+height : 160px;
+width : 324px;
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div a:hover p,.ActuIA_div2 a:hover p, .ActuIA_div_last a:hover img, .ActuIA_div_last a:hover p{
+-webkit-transform:scale(1.02);
+}
+
+.ActuIA_div a:hover img,.ActuIA_div2 a:hover img, .ActuIA_div_last a:hover img{
+box-shadow: 1px 1px 12px #555;
+}
+/* Image Titre IA*/
+
+#principal img {
+margin-left: 120px;
+margin-top: 20px;
+width: 1300px;
+height: 750px;
+border : 1px solid black;
+}
+
+/* Partie definition */
+
+#def, #ML, #DL{
+font-family: OCR A Std, cursive;
+font-weight: bold;
+font-size : 180%;
+}
+
+.principal_text{
+font-size : 115%;
+font-family : Arial;
+margin-right: 15px;
+}
+
+#principal .IA_img{
+height : 470px;
+width: 800px;
+margin-left : 350px;
+}
+
+/* Partie MachineLearning */
+
+#principal .ML_BD_img{
+height : 375px;
+width : 750px;
+margin-left : 350px;
+border: 1px solid black;
+}
+
+#principal .fonctionnement{
+font-family: Arial;
+font-weight: bold;
+font-size : 130%;
+margin-left: 50px;
+}
+
+#principal .fonctionnement{
+font-family: Arial;
+font-weight: bold;
+font-size : 130%;
+margin-left: 50px;
+}
+
+.principal_fonctionnement_text{
+font-size : 115%;
+font-family : Arial;
+margin-left : 50px;
+margin-right : 100px;
+}
+
+#principal .ML_schema_img{
+position: relative;
+left : 5px;
+padding-top : 5px;
+height : 380px;
+width : 600px;
+margin-left : 50px;
+border : 1px solid black;
+padding-right : 20px;
+
+}
+
+#principal .ML_schema2_img{
+margin : 0;
+position : relative;
+left : 8px;
+padding-top : 5px;
+border : 1px solid black;
+height : 380px;
+width : 700px;
+padding-left : 5px;
+}
+
+/* Partie DeepLearning */
+
+#principal .DL_schema_img{
+position :relative;
+height: 450px;
+width : 800px;
+left : -75px;
+}
+
+#principal .principal_DL_text{
+position : absolute;
+font-size : 115%;
+font-family : Arial;
+top:  3310px;
+padding-left : 880px;
+padding-right : 100px;
+word-spacing : 4px;
+}

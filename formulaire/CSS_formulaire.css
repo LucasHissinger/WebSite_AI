@@ -1,0 +1,77 @@
+body{
+background-image: url("formulaireBackground.jpg");
+background-repeat: repeat;
+}
+
+.banner{
+margin-bottom : 4px;
+width : 1920px;
+}
+
+/* Div principal (le centre de la page) */
+
+#principal{
+float: right;
+margin-right: 10px;
+background-color: white;
+width: 1539px;
+height: 500px;
+margin-top : 3px;
+border: 1px solid black;
+border-radius:8px 8px 8px 8px;
+}
+
+/* Partie form */
+
+.form{
+margin-left: 15px;
+margin-top: 15px;
+}
+
+.sexe{
+width : 200px;
+margin-top : 10px;
+}
+
+#principal .formulaire_principal_img{
+float: right;
+height : 515px;
+width: 520px;
+position : absolute;
+top : 230px;
+right : 500px;
+}
+
+#principal .formulaire_img{
+position : absolute;
+top : 553px;
+right : 10px;
+padding-right: 5px;
+padding-left: 3px;
+padding-top: 3px;
+padding-bottom: 2px;
+border-left : 1px solid black;
+border-top : 1px solid black;
+height : 150px;
+width: 150px;
+}
+
+/* Merci */
+
+#bottom_div{
+background-color: white;
+border-radius:8px 8px 8px 8px;
+height: 180px;
+width: 1539px;
+position : absolute;
+bottom : 0px;
+right : 10px;
+}
+
+.merci{
+text-align: center;
+font-family : monospace;
+margin-top: 50px;
+font-size: 450%;
+color : purple;
+}
